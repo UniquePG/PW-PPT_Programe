@@ -23,18 +23,8 @@ class SearchInsertPosition {
         int[] nums = {1, 3, 5, 6};
         int target = 5;
         int index = searchInsert(nums, target);
-        System.out.println(index); // Output: 2 (Index where target=5 is found)
+        System.out.println(index); 
         
-        // target = 2;
-        // index = searchInsert(nums, target);
-        // System.out.println(index); // Output: 1 (Index where target=2 would be inserted)
-
-        // target = 7;
-        // index = searchInsert(nums, target);
-        // System.out.println(index); // Output: 4 (Index where target=7 would be inserted)
-
-        // target = 0;
-        // index = searchInsert(nums, target);
-        // System.out.println(index); // Output: 0 (Index where target=0 would be inserted)
+        
     }
 }

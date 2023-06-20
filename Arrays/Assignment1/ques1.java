@@ -30,6 +30,6 @@ class TwoSum {
         for (int index : result) {
             System.out.print(index + " ");
         }
-        // Output: 0 1 (Indices of numbers 2 and 7 that add up to 9)
+        
     }
 }

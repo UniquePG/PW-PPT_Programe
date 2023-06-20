@@ -24,6 +24,6 @@ class RemoveElement {
         int result = removeElement(nums, val);
         System.out.println(result); // Output: 2
         // The array after removing all occurrences of 3: [2, 2]
-        System.out.println(Arrays.toString(Arrays.copyOfRange(nums, 0, result))); // Output: [2, 2]
+        System.out.println(Arrays.toString(Arrays.copyOfRange(nums, 0, result))); 
     }
 }
