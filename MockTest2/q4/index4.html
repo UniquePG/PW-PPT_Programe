@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Navbar</title>
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+  <style>
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .navbar li {
+      margin-right: 10px;
+    }
+
+    .navbar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    .navbar .hamburger {
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+      .navbar ul {
+        flex-direction: column;
+        display: none;
+      }
+
+      .navbar ul.show {
+        display: flex;
+      }
+
+      .navbar .hamburger {
+        display: block;
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <ul id="menuItems">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="hamburger"> &#8801;</div>
+  </div>
+
+  <!-- &#9776;  -->
+
+  <script src="style4.js"></script>
+</body>
+</html>
